@@ -312,17 +312,17 @@
 <div class="faculty" id="faculty">
     <h2>師資介紹</h2>
     <div class="container">
-        <a class="teacher" href="#faculty">
-            <img src="faculty1.jpg" alt="艾利">
-            <h3>陳家家</h3>
+        <a class="teacher">
+            <img src="faculty1.jpg">
+            <h3>艾利</h3>
         </a>
-        <a class="teacher" href="#faculty">
-            <img src="faculty2.jpg" alt="莫妮卡">
-            <h3>莫卡卡</h3>
+        <a class="teacher">
+            <img src="faculty2.jpg">
+            <h3>莫妮卡</h3>
         </a>
-        <a class="teacher" href="#faculty">
-            <img src="faculty3.jpg" alt="小雛">
-            <h3>小中大</h3>
+        <a class="teacher">
+            <img src="faculty3.jpg">
+            <h3>小雛</h3>
         </a>
     </div>
 </div>
@@ -332,15 +332,19 @@
         <h2>相關資訊</h2>
         <div class="infos">
             <div class="left">
-                <b>點點點大學管理學院6樓</b>
-                <span> 挖搭發呼阿由277號</span>
-                <b>電話：1809318095</b>
+                <b>哇哈哈大學管理學院五樓</b>
+                <span>304 挖搭發呼阿由277號</span>
+                <b>電話：03-1118941</b>
                 <span>分機：1111、2222、5555</span>
-                    </div>                
-                </div>
+            </div>
+            <iframe src="https://google.com"></iframe>
         </div>
-        <div class="footer">
-            &copy;Copyright 2000 Department of Information Management, MUST. All rights reserved.
-        </div>
-     </body>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2025 Department of Information Management.
+</div>
+
+</body>
 </html>
