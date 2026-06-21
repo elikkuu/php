@@ -282,8 +282,8 @@
                     echo $row["bid"];
                     echo "</td><td>";
                     if ($row["type"]==1) echo "系上公告";  
-                    if ($row["type"]==2) echo "獲獎資訊"; 
-                    if ($row["type"]==3) echo "徵才資訊"; 
+                    if ($row["type"]==2) echo "畢業資訊"; 
+                    if ($row["type"]==3) echo "證照資訊"; 
                     echo "</td><td>"; 
                     echo $row["title"];
                     echo "</td><td>";
