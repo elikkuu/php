@@ -270,7 +270,8 @@
         </li>
     </ul>
 </div>
-<div class="bulletin">
+       <!---佈告欄--->
+        <div class="bulletin">
            <h1>最新公告</h1>
             <?php
                 $conn=mysqli_connect("120.105.96.90", "immust", "immustimmust", "immust");
@@ -282,7 +283,7 @@
                     echo "</td><td>";
                     if ($row["type"]==1) echo "系上公告";  
                     if ($row["type"]==2) echo "獲獎資訊"; 
-                    if ($row["type"]==3) echo "證照資訊"; 
+                    if ($row["type"]==3) echo "徵才資訊"; 
                     echo "</td><td>"; 
                     echo $row["title"];
                     echo "</td><td>";
@@ -294,8 +295,12 @@
                 echo "</table>";
             ?>
         </div>
-
-
+        <!---佈告欄--->
+        <div class="banner" id="introduction">
+            <h1>系所簡介</h1>
+            <h1>在變動的時代中，陪伴學子勇敢逐夢</h1>
+            <h1>打造自主學習與全人教育的校園環境</h1>
+            <h1>帶您深入淺出了解未來的科技趨勢</h1>
 <!-- 整合舊版內容：最新消息布告欄表格區塊 -->
 <div class="bulletin">
     <h1>最新消息</h1>
@@ -308,21 +313,21 @@
         </tbody>
     </table>
 </div>
-
-<div class="faculty" id="faculty">
-    <h2>師資介紹</h2>
-    <div class="container">
-        <a class="teacher">
-            <img src="faculty1.jpg">
-            <h3>艾利</h3>
-        </a>
-        <a class="teacher">
-            <img src="faculty2.jpg">
-            <h3>莫妮卡</h3>
-        </a>
-        <a class="teacher">
-            <img src="faculty3.jpg">
-            <h3>小雛</h3>
+    </div>
+        <div class="faculty" id="faculty">
+            <h2>師資介紹</h2>
+            <div class="container">
+                <a class="teacher" href="">
+                    <img src="https://p2.bahamut.com.tw/B/2KU/58/f27a5b72f6aaef7517d08df95f1x0865.JPG">
+                    <h3>答答答</h3>
+                </a>
+                <a class="teacher" href="">
+                    <img src=https://p2.bahamut.com.tw/B/2KU/45/6c6b0039fb0952487e4a6ffe0b1wyad5.JPG?w=1000/>
+                    <h3>哈哈哈</h3>
+                </a>
+                <a class="teacher" href="">
+                    <img src="https://meet.eslite.com/Content/Images/Article/2024_comic_20241007182209.jpg">
+                    <h3>顆顆顆</h3>
         </a>
     </div>
 </div>
@@ -332,9 +337,9 @@
         <h2>相關資訊</h2>
         <div class="infos">
             <div class="left">
-                <b>哇哈哈大學管理學院五樓</b>
-                <span>304 挖搭發呼阿由277號</span>
-                <b>電話：03-1118941</b>
+                <b>點點點大學管理學院五樓</b>
+                <span>913呵呵哈哈西西87號</span>
+                <b>電話：09318903</b>
                 <span>分機：1111、2222、5555</span>
             </div>
             <iframe src="https://google.com"></iframe>
