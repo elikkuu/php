@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="zh-Hant-TW">
 <head>
     <title>點點點大學資訊管理系</title>
